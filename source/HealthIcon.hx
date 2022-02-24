@@ -15,7 +15,7 @@ class HealthIcon extends FlxSprite
 	public function new(char:String = 'bf', isPlayer:Bool = false)
 	{
 		super();
-		isOldIcon = (char == 'bf-old');
+		isOldIcon = (char == 'bfOld');
 		this.isPlayer = isPlayer;
 		changeIcon(char);
 		scrollFactor.set();
