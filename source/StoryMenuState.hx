@@ -215,7 +215,7 @@ class StoryMenuState extends MusicBeatState
 			if (controls.UI_DOWN_P)
 			{
 				changeWeek(1);
-				FlxG.sound.play(Paths.sound('scrollMenu2'));
+				FlxG.sound.play(Paths.sound('scrollMenu'));
 			}
 
 			if (controls.UI_RIGHT)
@@ -247,7 +247,7 @@ class StoryMenuState extends MusicBeatState
 
 		if (controls.BACK && !movedBack && !selectedWeek)
 		{
-			FlxG.sound.play(Paths.sound('cancelMenu2'));
+			FlxG.sound.play(Paths.sound('cancelMenu'));
 			movedBack = true;
 			MusicBeatState.switchState(new MainMenuState());
 		}
