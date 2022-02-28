@@ -901,7 +901,7 @@ class PlayState extends MusicBeatState
 		iconP2.visible = !ClientPrefs.hideHud;
 		add(iconP2);
 		reloadHealthBarColors();
- var creditTxt:FlxText = new FlxText(4,healthBarBG.y + 20,0,("Port by XMaykollYoutubeOF "), 24);
+ var creditTxt:FlxText = new FlxText(150,healthBarBG.y + 20,0,("Port by XMaykollYoutubeOF "), 24);
 
                 creditTxt.scrollFactor.set();
 
